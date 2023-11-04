@@ -3,11 +3,7 @@
  */
 document.write("<br>--------------------- № 1 ---------------------<br><br>");
 for (let i = 10; i <= 20; i++) {
-	if (i == 20) {
-		document.write(i);
-	} else {
-		document.write(i + ", ");
-	}
+	i == 20 ? document.write(i) : document.write(i + ", ");
 }
 
 document.write("<br><br>-------------------- № 2 --------------------<br><br>");
@@ -16,11 +12,7 @@ document.write("<br><br>-------------------- № 2 --------------------<br><br>"
  * 2. Вивести квадрати чисел від 10 до 20.
  */
 for (let i = 10; i <= 20; i++) {
-	if (i == 20) {
-		document.write(i ** 2);
-	} else {
-		document.write(i ** 2 + ", ");
-	}
+	i == 20 ? document.write(i ** 2) : document.write(i ** 2 + ", ");
 }
 
 document.write("<br><br>-------------------- № 3 --------------------<br><br>");
